@@ -1,0 +1,154 @@
+.headerBG-trivia {
+    background: #ffcd00;
+    background: -webkit-linear-gradient(310deg ,rgba(204, 185, 10, 0.8), rgba(144, 197, 9, 0.8)), url(/imgs/Mardi-gras-banner-trivia.jpg);
+    background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-trivia.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 450px;
+    margin-top: -80px;
+}
+
+.bg-newTrivia{
+    background: url(/imgs/bg-quiz.jpg);
+    background: url(/imgs/bg-quiz.jpg);
+    background-size: cover;
+}
+
+.btn-wrong{
+    background-color: red !important;
+}
+
+.btn-correct {
+    background-color: green !important;
+}
+
+.button-trivia {
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px !important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-trivia {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-trivia:hover {
+    background-color: $newPink;
+    color: white;
+    text-shadow: 2px 2px 2px #00000069;
+}
+
+.button-trivia:hover:after {
+    opacity: 1;
+}
+
+.quiz-box {
+    width: 100%;
+}
+
+.btn-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
+
+.controls {
+   text-align: center;
+    width: 100%;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prefix {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#counter,
+#score {
+    text-align: center;
+}
+
+.counter,
+.score {
+    padding: 1.5rem 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #0eaedf;
+    border-radius: 5px;
+}
+
+.question-holder {
+    font-family: 'Roboto', sans-serif;
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.answer-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: initial;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.answer-prefix {
+    background-color: #0eaedf;
+    color: white;
+    padding: 1.5rem 2.5rem;
+    margin: 0;
+}
+
+.answer-text {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+.answer-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+
+    transform: translateY(-0.1rem);
+    transition: transform 200ms;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightpink;
+}
+
+.font-size-q{
+    font-size: 24px !important;
+}

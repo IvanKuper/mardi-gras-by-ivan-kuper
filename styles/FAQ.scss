@@ -1,0 +1,35 @@
+.headerBG-FAQ {
+    background: #ffcd00;
+    background: -webkit-linear-gradient(310deg ,rgba(204, 185, 10, 0.8), rgba(144, 197, 9, 0.8)), url(/imgs/Mardi-gras-banner-faq.jpg);
+    background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-faq.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 450px;
+    margin-top: -80px;
+}
+
+button.accordion-button{
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.accordion-body {
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+button.accordion-button.collapsed {
+    background-color: #f2f2f2;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #9453a6 !important;
+}
+
+.accordion-button.collapsed::after{
+    background-image: url(/imgs/icons8-arrow-24.png) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/imgs/icons8-arrow-24.png) !important;
+}

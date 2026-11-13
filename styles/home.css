@@ -1,0 +1,251 @@
+@charset "UTF-8";
+body {
+  background-color: #F2F2F2;
+  min-height: 100%;
+  background-image: url("/imgs/20-203442_confetti-transparent-png-clip-art-image-free-confetti.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-newOrange {
+  background-color: #F2CC0F;
+}
+
+.bg-newGreen {
+  background-color: #8CBF3F;
+}
+
+.bg-newPink {
+  background-color: #9453A6;
+}
+
+.bg-newGrey {
+  background-color: #F2F2F2;
+}
+
+.bg-newPurple {
+  background-color: #4426bb;
+}
+
+.newPink {
+  color: #9453A6 !important;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.font-roboto-p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.font-pattaya-slider {
+  font-size: 64px;
+  letter-spacing: 2px;
+  font-family: 'Pattaya', sans-serif;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.gradient-text {
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-family: 'Pattaya', sans-serif;
+  background-color: #f3ec78;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9453A6), to(#8CBF3F));
+  background-image: linear-gradient(to top, #9453A6 0%, #8CBF3F 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239453A6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239453A6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 991.98px) {
+  h1.h1Mobile-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 62vh;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    padding-bottom: 45px;
+  }
+}
+
+.mobile-img-sides {
+  background-image: url("./imgs/mardi-festival.jpeg");
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.bgMobileStyle {
+  background-image: url("/imgs/bannerMobile.jpg");
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+
+.fs-h1-m {
+  font-size: 42px;
+}
+
+.fs-h3-card {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.cShadow {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sliderBox {
+  height: 450px;
+  position: relative;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardBt {
+  color: white;
+  background-color: #8CBF3F;
+  border-color: #8CBF3F;
+}
+
+.button5 {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button5 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button5:after {
+  content: '←';
+  position: absolute;
+  opacity: 0;
+  color: white;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button5:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button5:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.button6 {
+  border-radius: 4px;
+  background-color: #8CBF3F;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button6 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button6:after {
+  content: '←';
+  position: absolute;
+  opacity: 0;
+  color: white;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button6:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button6:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.font-roboto-p-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,21 @@
+.modalBtnClose {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: white;
+  color: black !important;
+}
+
+.font-pattaya-modealHeader {
+  font-family: "Pattaya", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.font-roboto-modealDesc {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+/*# sourceMappingURL=modal.css.map */

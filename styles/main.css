@@ -1,0 +1,695 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
+body {
+  background-color: #F2F2F2;
+  min-height: 100%;
+  background-image: url("/imgs/20-203442_confetti-transparent-png-clip-art-image-free-confetti.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-newOrange {
+  background-color: #F2CC0F;
+}
+
+.bg-newGreen {
+  background-color: #8CBF3F;
+}
+
+.bg-newPink {
+  background-color: #9453A6;
+}
+
+.bg-newGrey {
+  background-color: #F2F2F2;
+}
+
+.bg-newPurple {
+  background-color: #4426bb;
+}
+
+.newPink {
+  color: #9453A6 !important;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.font-roboto-p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.font-pattaya-slider {
+  font-size: 64px;
+  letter-spacing: 2px;
+  font-family: 'Pattaya', sans-serif;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.gradient-text {
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-family: 'Pattaya', sans-serif;
+  background-color: #f3ec78;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9453A6), to(#8CBF3F));
+  background-image: linear-gradient(to top, #9453A6 0%, #8CBF3F 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239453A6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239453A6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 991.98px) {
+  h1.h1Mobile-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 62vh;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    padding-bottom: 45px;
+  }
+}
+
+.mobile-img-sides {
+  background-image: url("./imgs/mardi-festival.jpeg");
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.bgMobileStyle {
+  background-image: url("/imgs/bannerMobile.jpg");
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+
+.fs-h1-m {
+  font-size: 42px;
+}
+
+.fs-h3-card {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.cShadow {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sliderBox {
+  height: 450px;
+  position: relative;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardBt {
+  color: white;
+  background-color: #8CBF3F;
+  border-color: #8CBF3F;
+}
+
+.button5 {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button5 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button5:after {
+  content: '←';
+  position: absolute;
+  opacity: 0;
+  color: white;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button5:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button5:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.button6 {
+  border-radius: 4px;
+  background-color: #8CBF3F;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button6 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button6:after {
+  content: '←';
+  position: absolute;
+  opacity: 0;
+  color: white;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button6:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button6:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.font-roboto-p-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.headerBG-about {
+  background: #ffcd00;
+  background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-about.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 450px;
+  margin-top: -80px;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 550px;
+}
+
+.header-banner {
+  font-family: 'Pattaya', sans-serif;
+  letter-spacing: 1px;
+  font-size: 60px;
+  color: white;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+@media (max-width: 991.98px) {
+  .header-banner {
+    font-size: 40px;
+  }
+}
+
+.headerBG-media {
+  background: #ffcd00;
+  background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-media.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 450px;
+  margin-top: -80px;
+}
+
+.imgHover {
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+.imgHover:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-vid {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.headerBG-FAQ {
+  background: #ffcd00;
+  background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-faq.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 450px;
+  margin-top: -80px;
+}
+
+button.accordion-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.accordion-body {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+button.accordion-button.collapsed {
+  background-color: #f2f2f2;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #9453a6 !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url(/imgs/icons8-arrow-24.png) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/imgs/icons8-arrow-24.png) !important;
+}
+
+.headerBG-contact {
+  background: #ffcd00;
+  background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-contact.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 450px;
+  margin-top: -80px;
+}
+
+.map {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+iframe.googlemap {
+  border-radius: 2%;
+}
+
+.navbarIcon {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbarImage {
+  z-index: 5;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.navbarImage:hover {
+  -webkit-transform: scale(1.5) translate(-25%, 15%);
+          transform: scale(1.5) translate(-25%, 15%);
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #9453A6 !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.nav-pills .nav-link.active:hover,
+.nav-pills .show > .nav-link:hover {
+  background-color: #593563 !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace:hover {
+  color: white !important;
+  background-color: #9453A6 !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .mobileSpace {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.font-pattaya {
+  font-family: 'Pattaya', sans-serif;
+}
+
+.bgNewDarkBlue {
+  background-color: #1e2738;
+}
+
+.button-footer {
+  border-radius: 4px;
+  background-color: #1e2738;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button-footer {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-footer:after {
+  content: '←';
+  position: absolute;
+  opacity: 0;
+  color: white;
+  right: -5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-footer:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button-footer:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.footerHeader {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.modalBtnClose {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: white;
+  color: black !important;
+}
+
+.font-pattaya-modealHeader {
+  font-family: "Pattaya", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.font-roboto-modealDesc {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.headerBG-trivia {
+  background: #ffcd00;
+  background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-trivia.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 450px;
+  margin-top: -80px;
+}
+
+.bg-newTrivia {
+  background: url(/imgs/bg-quiz.jpg);
+  background: url(/imgs/bg-quiz.jpg);
+  background-size: cover;
+}
+
+.btn-wrong {
+  background-color: red !important;
+}
+
+.btn-correct {
+  background-color: green !important;
+}
+
+.button-trivia {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button-trivia {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-trivia:hover {
+  background-color: #9453A6;
+  color: white;
+  text-shadow: 2px 2px 2px #00000069;
+}
+
+.button-trivia:hover:after {
+  opacity: 1;
+}
+
+.quiz-box {
+  width: 100%;
+}
+
+.btn-grid {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+.controls {
+  text-align: center;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+#intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prefix {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#counter,
+#score {
+  text-align: center;
+}
+
+.counter,
+.score {
+  padding: 1.5rem 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #0eaedf;
+  border-radius: 5px;
+}
+
+.question-holder {
+  font-family: 'Roboto', sans-serif;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.answer-container {
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.answer-prefix {
+  background-color: #0eaedf;
+  color: white;
+  padding: 1.5rem 2.5rem;
+  margin: 0;
+}
+
+.answer-text {
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+.answer-container:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.incorrect {
+  background-color: lightpink;
+}
+
+.font-size-q {
+  font-size: 24px !important;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+$bgNewDarkBlue:#1e2738;
+
+.bgNewDarkBlue{
+    background-color: $bgNewDarkBlue;
+} 
+
+.button-footer {
+    border-radius: 4px;
+    background-color: $bgNewDarkBlue;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px !important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-footer {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-footer:after {
+    content: '←';
+    position: absolute;
+    opacity: 0;
+    color: white;
+    right: -5px;
+    transition: 0.5s;
+}
+
+.button-footer:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+    background-color: $newPink;
+    color: white;
+    text-shadow: 2px 2px 2px #00000069;
+}
+
+.button-footer:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+.footerHeader{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+

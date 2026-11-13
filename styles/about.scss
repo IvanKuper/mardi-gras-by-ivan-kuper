@@ -1,0 +1,30 @@
+.headerBG-about {
+    background: #ffcd00;
+    background: -webkit-linear-gradient(310deg ,rgba(204, 185, 10, 0.8), rgba(144, 197, 9, 0.8)), url(/imgs/Mardi-gras-banner-about.jpg);
+    background: linear-gradient(350deg, #7e1f82c8, #68076cc8), url(/imgs/Mardi-gras-banner-about.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 450px;
+    margin-top: -80px;
+}
+
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.header-banner{
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px; 
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+@media (max-width: 991.98px){
+    .header-banner{
+        font-size: 40px;
+    }
+}

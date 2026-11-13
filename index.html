@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="shortcut icon" href="/imgs/logo.png">
+  <title>Mardi Gras New Orleans</title>
+</head>
+
+<body>
+  <!-- start of navbar -->
+  <div class="navbar navbar-expand-lg navbar-light bg-newOrange sticky-top">
+    <div class="container-fluid">
+      <div class="container d-lg-flex justify-content-lg-end text-center ">
+        <img class="position-absolute d-none d-lg-block navbarImage " width="150px" src="/imgs/logo.png"
+          alt="Mardi Gras Logo">
+        <button onclick="myFunction()" class="navbar-toggler navbarIcon" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <nav class="nav nav-pills nav-fill d-block d-md-block d-lg-flex d-lg-flex flex-lg-row mx-auto ">
+            <a class="font-pattaya flex-md-fill text-md-center nav-link active mx-lg-2 mobileSpace "
+              href="/index.html"><i class="fa-solid fa-house px-1 me-1 bg-ne "></i>Home</a>
+            <a class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+              href="/about.html"><i class="fa-solid fa-users px-1 me-1 "></i>About</a>
+            <a class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+              href="/media.html"><i class="fa-solid fa-photo-film px-1 me-1"></i>Media</a>
+            <a class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace" href="/FAQ.html"><i
+                class="fa-solid fa-question px-1 me-1"></i>FAQ</a>
+            <a class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+              href="/Contact.html"><i class="fa-solid fa-phone-volume px-1 me-1"></i>Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start of slider-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-md-none d-lg-block"
+    data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/imgs/banner.jpg" class="d-block w-100" alt="Mradi Gras woman in mask">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="sliderBox">
+            <h1 class="font-pattaya-slider">Welcome To <Br><span>Mradi Gras Festival</span></h1>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/banner2.jpg" class="d-block w-100" alt="Mask market">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="sliderBox">
+            <h2 class="font-pattaya-slider">Mask Market</h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/banner3.jpg" class="d-block w-100" alt="Mardi Gras statues">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="sliderBox">
+            <h2 class="font-pattaya-slider">Street View</h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/banner4.jpg" class="d-block w-100" alt="Mardi Gras celebrations">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="sliderBox">
+            <h2 class="font-pattaya-slider">Huge Celebrations</h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/imgs/banner5.jpg" class="d-block w-100" alt="Mardi Gras woman with colorful paint on face">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="sliderBox">
+            <h2 class="font-pattaya-slider">Colorful People</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- start of bg image for mobile-->
+  <div class="container-fluid position-relative mobile-img-sides d-md-block d-lg-none bgMobileStyle">
+    <h1 class="font-pattaya-slider text-light fs-h1-m text-center h1Mobile-1">Welcome To<Br> Mardi Gras</h1>
+  </div>
+  <!-- start of bottom border-->
+  <div class="container-fluid">
+    <div class="row" style="height: 10px;">
+      <div class="col bg-newOrange">
+      </div>
+      <div class="col bg-newGreen">
+      </div>
+      <div class="col bg-newPink">
+      </div>
+      <div class="col bg-newPurple">
+      </div>
+      <div class="col bg-newOrange">
+      </div>
+      <div class="col bg-newGreen">
+      </div>
+      <div class="col bg-newPink">
+      </div>
+      <div class="col bg-newPurple">
+      </div>
+    </div>
+  </div>
+  <!-- main content on page-->
+  <div class="container bg-newGrey px-5 cShadow">
+    <div class="row pt-5 d-flex align-items-center">
+      <div class="col-lg-6">
+        <h2 class="gradient-text">A bit of History...</h2>
+        <p class="font-roboto-p pt-3 text-justify">The origins of Mardi Gras can be traced to medieval Europe, passing
+          through Rome and Venice in the 17th and 18th centuries to the French House of the Bourbons. From here, the
+          traditional revelry of "Boeuf Gras," or fatted calf, followed France to her colonies.
+          <br><br>
+          On March 2, 1699, French-Canadian explorer Jean Baptiste Le Moyne Sieur de Bienville arrived at a plot of
+          ground 60 miles directly south of New Orleans, and named it "Pointe du Mardi Gras" when his men realized it
+          was the eve of the festive holiday. Bienville also established "Fort Louis de la Louisiane" (which is now
+          Mobile) in 1702. In 1703, the tiny settlement of Fort Louis de la Mobile celebrated America's very first Mardi
+          Gras. n 1704, Mobile established a secret society (Masque de la Mobile), similar to those that form our
+          current Mardi Gras krewes. It lasted until 1709. In 1710, the "Boeuf Gras Society" was formed and paraded from
+          1711 through 1861.
+          <br><br>
+          The procession was held with a huge bull's head pushed along on wheels by 16 men. Later, Rex would parade with
+          an actual bull, draped in white and signaling the coming Lenten meat fast. This occurred on Fat Tuesday.</p>
+      </div>
+      <div class="col-lg-6 ">
+        <img src="/imgs/Mask.png" class="w-100 rounded" alt="Mardi Gras mask">
+      </div>
+    </div>
+    <div class="row pb-5 d-flex align-items-center ">
+      <p class="font-roboto-p pt-3 text-justify">New Orleans was established in 1718 by Bienville. By the 1730s, Mardi
+        Gras was celebrated openly in New Orleans, but not with the parades we know today. In the early 1740s,
+        Louisiana's governor, the Marquis de Vaudreuil, established elegantsociety balls, which became the model for the
+        New Orleans Mardi Gras balls of today. The earliest reference to Mardi Gras "Carnival" appears in a 1781 report
+        to the Spanish colonial governing body. That year, the Perseverance Benevolent & Mutual Aid Association was the
+        first of hundreds of clubs and carnival organizations formed in New Orleans.
+        <br><br>
+        By the late 1830s, New Orleans held street processions of maskers with carriages and horseback riders to
+        celebrate Mardi Gras. Dazzling gaslight torches, or "flambeaux," lit the way for the krewe's members and lent
+        each event an exciting air of romance and festivity. In 1856, six young Mobile natives formed the Mistick Krewe
+        of Comus, invoking John Milton's hero Comus to represent their organization. Comus brought magic and mystery to
+        New Orleans with dazzling floats (known as tableaux cars) and masked balls. Krewe members remained anonymous.
+      </p>
+    </div>
+    <!-- start of sponsors-->
+    <h2 class="gradient-text pb-3">Our amazing soponsers!</h2>
+    <div class="row g-3">
+      <div class="col-12 col-md-6 col-xl-3 ">
+        <div class="card h-100">
+          <img src="/imgs/bistreaux&bar.jpg" alt="Bistreaux & Bar" class="card-img-top">
+          <div class="card-body d-flex flex-column ">
+            <h3 class="fs-h3-card text-center">Walk-On's Bistreaux & Bar</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(0)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/sheraton.jpg" alt="Sheraton hotel" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Sheraton New Orleans Hotel</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(1)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/aceHotel.jpg" alt="Ace hotel" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Ace Hotel New Orleans</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(2)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/theRitz.jpg" alt="Ritz hotel" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">The Ritz-Carlton, New Orleans</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(3)">Read more..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-3 g-3 pb-5">
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/parking.jpg" alt="Parking lot" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Premium Parking - P402</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(4)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/Louisiana-Children’s-Museum.jpg" alt="Louisiana Children’s Museum" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Louisiana Children's Museum</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(5)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/musem-of-death.jpg" alt="Museum of Death" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Museum of Death</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(6)">Read more..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card h-100">
+          <img src="/imgs/Haunted-Museum.jpg" alt="Haunted Museum" class="card-img-top">
+          <div class="card-body d-flex flex-column">
+            <h3 class="fs-h3-card text-center">Haunted Museum</h3>
+            <a href="#" class="btn button5 my-2 w-100 align-self-start font-roboto-p" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop" onclick="show(7)">Read more..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- MY Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class=" modal-content">
+        <div class="modal-header p-0">
+          <img src="" alt="" class="card-img-top" id="modalImage">
+          <button type="button" class="btn-close modalBtnClose" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="modal-title border-bottom mb-2 font-pattaya-modealHeader" id="modalTitle"></h5>
+          <p class="font-roboto-p text-justify" id="modalDesc"></p>
+          <a href="" class="btn button6 my-2 w-100 align-self-start font-roboto-p" id="modalBtn">Visit Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bgNewDarkBlue">
+    <div class="container p-4">
+      <section class="">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <h5 class="footerHeader text-center border-bottom pb-4 mt-4">Site navigation</h5>
+            <ul class="list-unstyled mb-0 d-xl-flex justify-content-evenly">
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" href="/index.html"><i
+                    class="fa-solid fa-house px-1 me-1 bg-ne "></i>Home</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" href="/about.html"><i
+                    class="fa-solid fa-users px-1 me-1 "></i>About</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" href="/media.html"><i
+                    class="fa-solid fa-photo-film px-1 me-1"></i>Media</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" href="/FAQ.html"><i
+                    class="fa-solid fa-question px-1 me-1"></i>FAQ</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" href="/contact.html"><i
+                    class="fa-solid fa-phone-volume px-1 me-1"></i>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0 mt-4">
+            <h5 class="footerHeader text-center border-bottom pb-4">Social media</h5>
+            <ul class="list-unstyled mb-0 d-xl-flex justify-content-evenly">
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" id="FS"
+                  href="https://www.facebook.com/MardiGrasNewOrleans/"><i
+                    class="fa-brands fa-facebook px-1 me-1 bg-ne"></i>Facebook</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" id="insta"
+                  href="https://www.instagram.com/mardigrasworld/"><i
+                    class="fa-brands fa-instagram px-1 me-1 "></i>Instagram</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" id="twitter"
+                  href="https://twitter.com/MardiGrasNOLA"><i class="fa-brands fa-twitter px-1 me-1 "></i>Twiiter</a>
+              </li>
+              <li>
+                <a class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2" id="YT"
+                  href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"><i
+                    class="fa-brands fa-youtube px-1 me-1 "></i>Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="text-center p-3 font-roboto-p-footer" style="background-color: rgba(0, 0, 0, 0.2)">
+      <a style="color: white;">Made with ♥ by Ivan Burkush</a>
+    </div>
+  </div>
+
+  <script src="/js/homeModal.js"></script>
+  <script src="/js/footer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="shortcut icon" href="/imgs/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <title>Media</title>
+  </head>
+
+  <body>
+    <!-- start of navbar -->
+    <div class="navbar navbar-expand-lg navbar-light bg-newOrange sticky-top">
+      <div class="container-fluid">
+        <div class="container d-lg-flex justify-content-lg-end text-center">
+          <img
+            class="position-absolute d-none d-lg-block navbarImage"
+            width="150px"
+            src="/imgs/logo.png"
+            alt="Mardi Gras Logo"
+          />
+          <button
+            onclick="myFunction()"
+            class="navbar-toggler navbarIcon"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <nav
+              class="nav nav-pills nav-fill d-block d-md-block d-lg-flex d-lg-flex flex-lg-row mx-auto"
+            >
+              <a
+                class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+                href="/index.html"
+                ><i class="fa-solid fa-house px-1 me-1 bg-ne"></i>Home</a
+              >
+              <a
+                class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+                href="/about.html"
+                ><i class="fa-solid fa-users px-1 me-1"></i>About</a
+              >
+              <a
+                class="font-pattaya flex-md-fill text-md-center nav-link active mx-lg-2 mobileSpace"
+                href="/media.html"
+                ><i class="fa-solid fa-photo-film px-1 me-1"></i>Media</a
+              >
+              <a
+                class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+                href="/FAQ.html"
+                ><i class="fa-solid fa-question px-1 me-1"></i>FAQ</a
+              >
+              <a
+                class="font-pattaya flex-md-fill text-md-center nav-link newPink mx-lg-2 mobileSpace"
+                href="#"
+                ><i class="fa-solid fa-phone-volume px-1 me-1"></i>Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start of banner-->
+
+    <header class="headerBG-media">
+      <section>
+        <h1 class="header-banner text-center">Media</h1>
+      </section>
+    </header>
+
+    <!-- start of bottom border-->
+    <div class="container-fluid">
+      <div class="row" style="height: 10px">
+        <div class="col bg-newOrange"></div>
+        <div class="col bg-newGreen"></div>
+        <div class="col bg-newPink"></div>
+        <div class="col bg-newPurple"></div>
+        <div class="col bg-newOrange"></div>
+        <div class="col bg-newGreen"></div>
+        <div class="col bg-newPink"></div>
+        <div class="col bg-newPurple"></div>
+      </div>
+    </div>
+    <!-- main content on page-->
+    <div class="container bg-newGrey px-5 cShadow">
+      <!-- Pic Gallery -->
+      <div class="row pt-5">
+        <h2 class="gradient-text font-roboto-p">Pictures Gallery</h2>
+      </div>
+      <div class="row pt-4">
+        <div class="col-lg-4 col-md-12 mb-lg-0">
+          <a href="/imgs/media1.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+          <a href="/imgs/media2.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+        </div>
+        <div class="col-lg-4 mb-lg-0">
+          <a href="/imgs/media3.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+          <a href="/imgs/media4.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media4.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+        </div>
+        <div class="col-lg-4 mb-lg-0">
+          <a href="/imgs/media5.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media5.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+          <a href="/imgs/media6.jpg" data-fancybox="gallery">
+            <img
+              src="/imgs/media6.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 imgHover"
+              alt="..."
+            />
+          </a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <h2 class="gradient-text font-roboto-p">Video Gallery</h2>
+      </div>
+      <!-- Video Gallery -->
+      <div class="row pt-4 pb-5">
+        <div class="col-lg-4">
+          <div class="container-vid">
+            <iframe
+              class="responsive-iframe rounded"
+              src="https://www.youtube.com/embed/pBFSY4RM0p4"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4 pt-lg-0 pt-4">
+          <div class="container-vid">
+            <iframe
+              class="responsive-iframe rounded"
+              src="https://www.youtube.com/embed/hzj1Hwa_6A8"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4 pt-lg-0 pt-4">
+          <div class="container-vid">
+            <iframe
+              class="responsive-iframe rounded"
+              src="https://www.youtube.com/embed/C8mJ2C2cbd0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="bgNewDarkBlue">
+      <div class="container p-4">
+        <section class="">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 class="footerHeader text-center border-bottom pb-4 mt-4">
+                Site navigation
+              </h5>
+              <ul class="list-unstyled mb-0 d-xl-flex justify-content-evenly">
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    href="/index.html"
+                    ><i class="fa-solid fa-house px-1 me-1 bg-ne"></i>Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    href="/about.html"
+                    ><i class="fa-solid fa-users px-1 me-1"></i>About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    href="/media.html"
+                    ><i class="fa-solid fa-photo-film px-1 me-1"></i>Media</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    href="/FAQ.html"
+                    ><i class="fa-solid fa-question px-1 me-1"></i>FAQ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    href="/contact.html"
+                    ><i class="fa-solid fa-phone-volume px-1 me-1"></i
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0 mt-4">
+              <h5 class="footerHeader text-center border-bottom pb-4">
+                Social media
+              </h5>
+              <ul class="list-unstyled mb-0 d-xl-flex justify-content-evenly">
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    id="FS"
+                    href="https://www.facebook.com/MardiGrasNewOrleans/"
+                    ><i class="fa-brands fa-facebook px-1 me-1 bg-ne"></i
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    id="insta"
+                    href="https://www.instagram.com/mardigrasworld/"
+                    ><i class="fa-brands fa-instagram px-1 me-1"></i
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    id="twitter"
+                    href="https://twitter.com/MardiGrasNOLA"
+                    ><i class="fa-brands fa-twitter px-1 me-1"></i>Twiiter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="btn button-footer my-2 w-100 align-self-start font-roboto-p me-2"
+                    id="YT"
+                    href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+                    ><i class="fa-brands fa-youtube px-1 me-1"></i>Youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="text-center p-3 font-roboto-p-footer"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        <a style="color: white">Made with ♥ by Ivan Burkush</a>
+      </div>
+    </div>
+
+    <script src="/js/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script
+      script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
