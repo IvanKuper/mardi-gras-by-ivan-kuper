@@ -5,12 +5,12 @@ function contactClick(event) {
     var email = document.getElementById("floatingEmail").value;
 
     if (firstName.length < 2) {
-        alert("Your first name is too short, Let's try agian!");
+        alert("Your first name is too short, please try again.");
     } else if (lastName.length < 2) {
-        alert("Your last name is too short, Let's try agian!");
+        alert("Your last name is too short, please try again.");
     } else if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
-        alert("Please enter valid email!");
+        alert("Please enter a valid email.");
     } else {
-        alert("Form Sent Succsesfuly!");
+        alert("Thanks! This is a demo form, so the message is not sent anywhere.");
     }
 }

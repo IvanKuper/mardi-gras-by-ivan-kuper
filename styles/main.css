@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap");
 body {
   background-color: #F2F2F2;
   min-height: 100%;
@@ -31,7 +30,7 @@ body {
 }
 
 .newPink {
-  color: #9453A6 !important;
+  color: #6B2D7F !important;
 }
 
 .carousel-item {
@@ -52,14 +51,16 @@ body {
 .font-pattaya-slider {
   font-size: 64px;
   letter-spacing: 2px;
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Pattaya',
+ sans-serif;
   text-shadow: 3px 5px 2px #474747;
 }
 
 .gradient-text {
   font-size: 38px;
   letter-spacing: 2px;
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Pattaya',
+ sans-serif;
   background-color: #f3ec78;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9453A6), to(#8CBF3F));
   background-image: linear-gradient(to top, #9453A6 0%, #8CBF3F 100%);
@@ -156,7 +157,7 @@ body {
 
 .button5 {
   border-radius: 4px;
-  background-color: #5ca1e1;
+  background-color: #2a6db0;
   border: none;
   color: #fff;
   text-align: center;
@@ -440,7 +441,8 @@ a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace:
 }
 
 .font-pattaya {
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Pattaya',
+ sans-serif;
 }
 
 .bgNewDarkBlue {
@@ -544,7 +546,7 @@ a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace:
 
 .button-trivia {
   border-radius: 4px;
-  background-color: #5ca1e1;
+  background-color: #2a6db0;
   border: none;
   color: #fff;
   text-align: center;
