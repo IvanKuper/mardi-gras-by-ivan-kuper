@@ -1,6 +1,6 @@
 # Mardi Gras New Orleans
 
-A multi-page website about the Mardi Gras festival: home, about, media gallery, trivia quiz, FAQ and a contact form.
+A multi-page website about the Mardi Gras festival: home, about, media gallery, FAQ and a contact form.
 
 **Live:** https://mardi-gras-by-ivan-kuper.netlify.app
 
