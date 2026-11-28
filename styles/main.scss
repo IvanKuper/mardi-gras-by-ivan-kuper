@@ -7,3 +7,7 @@
 @import 'footer';
 @import 'modal';
 @import 'trivia';
+// images that carry width/height keep their ratio when CSS sets the width
+img[width][height] {
+  height: auto;
+}

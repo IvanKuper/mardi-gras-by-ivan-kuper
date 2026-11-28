@@ -694,4 +694,7 @@ a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace:
 .font-size-q {
   font-size: 24px !important;
 }
+img[width][height] {
+  height: auto;
+}
 /*# sourceMappingURL=main.css.map */

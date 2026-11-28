@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="print" onload="this.media='all'"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
@@ -19,13 +19,14 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="shortcut icon" href="/imgs/logo.png" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"
     />
+    <meta name="description" content="Photos and videos from Mardi Gras in New Orleans: parade floats, costumes, dancers and street celebrations." />
     <title>Media</title>
   </head>
 
@@ -36,7 +37,7 @@
         <div class="container d-lg-flex justify-content-lg-end text-center">
           <img
             class="position-absolute d-none d-lg-block navbarImage"
-            width="150px"
+            width="150" height="150"
             src="/imgs/logo.png"
             alt="Mardi Gras Logo"
           />
@@ -118,14 +119,14 @@
         <div class="col-lg-4 col-md-12 mb-lg-0">
           <a href="/imgs/media1.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media1.jpg"
+              src="/imgs/thumbs/media1.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="A giant king float with butterfly wings at a Mardi Gras parade"
             />
           </a>
           <a href="/imgs/media2.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media2.jpg"
+              src="/imgs/thumbs/media2.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="A jester float above crowds reaching for beads on St. Charles Avenue"
             />
@@ -134,14 +135,14 @@
         <div class="col-lg-4 mb-lg-0">
           <a href="/imgs/media3.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media3.jpg"
+              src="/imgs/thumbs/media3.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="A flower-covered float pulled by a tractor under oak trees, with crowds on both sides"
             />
           </a>
           <a href="/imgs/media4.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media4.jpg"
+              src="/imgs/thumbs/media4.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="A white bull float and a marching dance team on a city street"
             />
@@ -150,14 +151,14 @@
         <div class="col-lg-4 mb-lg-0">
           <a href="/imgs/media5.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media5.jpg"
+              src="/imgs/thumbs/media5.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="Dancers in feathered headdresses and sequined costumes at a street parade"
             />
           </a>
           <a href="/imgs/media6.jpg" data-fancybox="gallery">
             <img loading="lazy"
-              src="/imgs/media6.jpg"
+              src="/imgs/thumbs/media6.jpg" width="800" height="522"
               class="w-100 shadow-1-strong rounded mb-4 imgHover"
               alt="A woman in a Mardi Gras mask beside a party table with drinks and fruit"
             />
@@ -292,8 +293,8 @@
         class="text-center p-3 font-roboto-p-footer"
         style="background-color: rgba(0, 0, 0, 0.2)"
       >
-        <a style="color: white">Made with ♥ by Ivan Kuper</a>
-            &middot; <a style="color: white;" href="https://ivankuper.github.io/">More projects: Ivan Kuper\'s portfolio</a>
+        <span style="color: white;">Made with ♥ by Ivan Kuper</span>
+            &middot; <a style="color: white;" href="https://ivankuper.github.io/">More projects: Ivan Kuper's portfolio</a>
       </div>
     </div>
 
