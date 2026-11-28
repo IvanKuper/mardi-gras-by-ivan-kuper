@@ -694,4 +694,16 @@ a.font-pattaya.flex-md-fill.text-md-center.nav-link.newPink.mx-lg-2.mobileSpace:
 .font-size-q {
   font-size: 24px !important;
 }
+img[width][height] {
+  height: auto;
+}
+/* Inline SVG icons (Font Awesome Free 6.1.1, CC BY 4.0), sized like the old icon font */
+.icon {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  box-sizing: content-box;
+  overflow: visible;
+}
 /*# sourceMappingURL=main.css.map */
